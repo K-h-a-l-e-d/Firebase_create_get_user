@@ -1,16 +1,17 @@
-# user_info
+# FireBase User Info
 
-A new Flutter project.
+## Description
+This is a Simple flutter application demo for creating and reading users in firebase
 
-## Getting Started
+## Features
+- Saving newly created users & displaying recently added user
+  
+## code explanation
+- on pressing Save Data, user input is taken form textform fields controllers', and user data map is created then passed to firebase add functions which performs a create request to the db
+- on pressing Display saved data button the current page navigates to UsersInfo page and get users request is performed in an init state in Users info page which fetches users from database, then they are displayed along with recently added user if there is any, otherwise a default Text will be displayed
 
-This project is a starting point for a Flutter application.
+## Application Screenshots: 
+|![u1](https://github.com/user-attachments/assets/d094d56e-4d3e-449b-9296-6afe516da99d)|![u2](https://github.com/user-attachments/assets/eca6b1e3-1686-4e14-82e5-df7e0aaa93d2)|
+|-|-|
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![u3](https://github.com/user-attachments/assets/70b50847-712f-4059-9a9b-aab20141fd8b)![u4](https://github.com/user-attachments/assets/b23670cd-4deb-4ff5-b7d8-51a22fd134d8)
