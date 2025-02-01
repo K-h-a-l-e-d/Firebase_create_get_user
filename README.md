@@ -1,7 +1,7 @@
 # FireBase User Info
 
 ## Description
-This is a Simple flutter application demostrating the use of creating and reading operations on users in firebase firestore database
+This is a Simple flutter application demonstrating the use of creating and reading operations on users in firebase firestore database
 
 ## Features
 - Saving & displaying recently created users along with a list of all users in firestore database
