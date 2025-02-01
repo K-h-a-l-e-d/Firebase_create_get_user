@@ -1,10 +1,10 @@
 # FireBase User Info
 
 ## Description
-This is a Simple flutter application demo for creating and reading users in firebase
+This is a Simple flutter application demostrating the use of creating and reading operations on users in firebase firestore database
 
 ## Features
-- Saving newly created users & displaying recently added user
+- Saving & displaying recently created users along with a list of all users in firestore database
   
 ## code explanation
 - on pressing Save Data, user input is taken form textform fields controllers', and user data map is created then passed to firebase add functions which performs a create request to the db
